@@ -1,0 +1,6 @@
+.header{left:0;position:absolute;top:0}
+.menu a{display:inline-block;margin:0;vertical-align:middle;padding:5px 20px;text-decoration:none;white-space:nowrap;line-height:1.5em}
+.menu .menu-home{text-transform:uppercase}
+.menu .menu-list{margin:0;padding:0;list-style:none;position:relative;left:0;top:0;visibility:visible;display:inline-block;vertical-align:middle}
+.menu .menu-item{display:inline-block;vertical-align:middle}
+.menu li a:hover,.menu li a:focus{background-color:#4cc6ff;color:#fff}
