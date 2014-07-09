@@ -44,6 +44,6 @@ See [Explore Flask](http://exploreflask.com/organizing.html#organization-pattern
 3. Repeat for `import` statement in run.py
 4. Setup virtualenv for this directory & activate (because I always forget, virtualenvwrapper command is `mkvirtualenv <env-name>`)
 5. Create an instance/ dir containing a config.py file
-`pip install -r requirements.txt`
-6. `python run.py`
-7. Navigate to 127.0.0.1:5000 in your browser to test it out
+6. `pip install -r requirements.txt`
+7. `python run.py`
+8. Navigate to 127.0.0.1:5000 in your browser to test it out
