@@ -15,21 +15,21 @@ The setup is mostly from the Package structure in [Explore Flask](http://explore
 ```sh
 ├── README.md
 ├── config.py (configuration that is not environment specific. Config values set in instance/config.py override those set in this config.py)
-├── instance (config. that should not be in version control, e.g., sensitive creds. and/or environment specific variables like `DEBUG`)
+├── instance/ (config. that should not be in version control, e.g., sensitive creds. and/or environment specific variables like `DEBUG`)
 │   └── config.py
 ├── requirements.txt
 ├── run.py (used only in development. Test site with `python run.py`. You need to modify the `import` statement around line 5 to match the name of the package)
-└── yourappname (change to the name of your app)
+└── yourappname/ (change to the name of your app)
     ├── __init__.py
     ├── forms.py
     ├── models.py
-    ├── static
+    ├── static/
     │   ├── js
     │   │   ├── main.js
-    │   │   └── vendors
+    │   │   └── vendors/
     │   └── style
     │       └── main.css
-    ├── templates
+    ├── templates/
     │   ├── home.html (very, very basic home page template)
     │   └── layout.html (very basic layout file)
     └── views.py
