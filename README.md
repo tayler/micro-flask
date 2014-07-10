@@ -24,6 +24,7 @@ The setup is mostly from the Package structure in [Explore Flask](http://explore
     ├── forms.py
     ├── models.py
     ├── static/
+	|	├── img
     │   ├── js
     │   │   ├── main.js
     │   │   └── vendors/
