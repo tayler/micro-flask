@@ -1,6 +1,40 @@
-.header{left:0;position:absolute;top:0}
-.menu a{display:inline-block;margin:0;vertical-align:middle;padding:5px 20px;text-decoration:none;white-space:nowrap;line-height:1.5em}
-.menu .menu-home{text-transform:uppercase}
-.menu .menu-list{margin:0;padding:0;list-style:none;position:relative;left:0;top:0;visibility:visible;display:inline-block;vertical-align:middle}
-.menu .menu-item{display:inline-block;vertical-align:middle}
-.menu li a:hover,.menu li a:focus{background-color:#4cc6ff;color:#fff}
+* {
+  line-height: 1.5;
+  margin: 0;
+}
+
+html {
+  color: #888;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  left: 50%;
+  margin: -43px 0 0 -150px;
+  position: absolute;
+  top: 50%;
+  width: 300px;
+}
+
+h1 {
+  color: #555;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 270px) {
+  body {
+    margin: 10px auto;
+    position: static;
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
